@@ -1,20 +1,12 @@
-// import { useState } from "react";
-
-import Form from "./components/project ContactApp/Form";
-import Header from "./components/project ContactApp/Header";
-
-
-
-
+import Books from "./components/project BookApp/components/Books";
+import Layout from "./components/project BookApp/components/Layout";
 function App() {
-
 
   return (
     <>
-    <div className="flex w-full flex-col justify-center items-center">
-      <Header/>
-      <Form/>
-    </div>
+      <Layout>
+        <Books/>
+      </Layout>
     </>
   );
 }
